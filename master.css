@@ -74,7 +74,7 @@
     right: 0;
     width: 100%;
     z-index: 9999;
-    background-color: #d6ceceb3;
+    background-color: #f6f6ff8f;
 }
 @media(max-width: 991px){
     .header{
@@ -281,12 +281,17 @@
   }
   .landing .text{
       flex: 1;
-      margin: 0 auto;
+      margin: 30px auto;
   }
   .landing .text h1{
       margin: 0;
       font-size: 40px;
       letter-spacing: -1px;
+  }
+  @media(max-width: 991px){
+    .landing .text h1{
+        margin: auto;
+    }
   }
   .landing .text h1{
       width: 200px;
